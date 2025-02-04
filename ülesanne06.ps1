@@ -27,7 +27,7 @@ $emailContent = Get-Content -Path $emailFilePath
 $emailArray = $emailContent -split ','
 
 
-$myEmail = "myemail@example.com"
+$myEmail = "reio@hkhk.edu.ee"
 $emailArray += $myEmail
 
 
