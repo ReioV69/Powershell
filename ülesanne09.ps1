@@ -38,4 +38,4 @@ foreach ($user in $users) {
 }
 
 # Ekspordime tulemused uude csv faili
-$results | Export-Csv -Path "processed_users.csv" -NoTypeInformation
+$results | Export-Csv -Path "uus_users.csv" -NoTypeInformation
