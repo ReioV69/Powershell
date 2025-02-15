@@ -51,7 +51,7 @@ function Puhasta-Taisnimi {
 }
 
 # Kasutajalt nime küsimine
-$nimeSisend = Read-Host "Palun sisestage oma täisnimi (kasutage täpitähti, kui on vajalik)"
+$nimeSisend = Read-Host "Palun sisestage oma täisnimi"
 
 # Funktsiooni kutsumine ja tulemuse väljastamine
 $puhastatudNimi = Puhasta-Taisnimi -Taisnimi $nimeSisend
